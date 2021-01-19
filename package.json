@@ -39,7 +39,9 @@
     "custom react hook",
     "hide scrollbar",
     "useHideScrollbar",
-    "react hide scrollbar"
+    "react hide scrollbar",
+    "use-hide-scrollbar hook",
+    "React hook hide scroll bar",
   ],
   "engines": {
     "node": ">=10",
