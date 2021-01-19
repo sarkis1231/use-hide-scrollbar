@@ -4,7 +4,7 @@ function getScrollbarWidth() : number {
     return window.innerWidth - document.documentElement.clientWidth;
 }
 
-export  function useHideScrollbar(trigger : boolean) : void {
+function useHideScrollbar(trigger : boolean) : void {
     const body : HTMLElement = document.body
     useEffect(() => {
         if (trigger) {
@@ -19,3 +19,4 @@ export  function useHideScrollbar(trigger : boolean) : void {
     }, [trigger]);
 }
 
+export default useHideScrollbar;
