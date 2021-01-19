@@ -17,6 +17,7 @@ const App = () => {
 
   const [trigger, setTrigger] = useState(false);
   useScrollingElement(trigger);
+  console.log(trigger)
   return (
     <div>
       <button onClick={() => setTrigger(prev => !prev)}>Click me!</button>
