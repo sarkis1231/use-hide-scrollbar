@@ -1,7 +1,5 @@
 import { useEffect } from 'react';
 
-
-
 function useHideScrollbar(trigger : boolean) : void {
     const body : HTMLElement = document.body
     useEffect(() => {
