@@ -1,8 +1,8 @@
 {
-  "name": "use-hide-scrollbar",
   "version": "1.0.9",
   "description": "custom react hook to hide browser scrollbar",
   "source": "src/use-hide-scrollbar.ts",
+  "name": "use-hide-scrollbar",
   "main": "lib/use-hide-scrollbar.js",
   "types": "lib/use-hide-scrollbar.d.js",
   "scripts": {
