@@ -11,7 +11,7 @@ yarn add use-hide-scrollbar
 
 ```jsx
 import React from 'react';
-import useHideScrollbar from "use-hide-scrollbar/dist/use-hide-scrollbar";
+import {useHideScrollbar} from "use-hide-scrollbar";
 const App = () => {
 
   const [trigger, setTrigger] = useState(false);
