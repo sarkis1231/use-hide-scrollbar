@@ -5,7 +5,7 @@
   "main": "dist/use-hide-scrollbar.js",
   "source": "src/index.ts",
   "modules": "dist/use-hide-scrollbar.modren.js",
-  "types": "dist/use-hide-scrollbar.d.js",
+  "types": "dist/index.d.js",
   "files": [
     "dist/use-hide-scrollbar.js"
   ],
