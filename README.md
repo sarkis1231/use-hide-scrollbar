@@ -10,7 +10,7 @@ yarn add use-hide-scrollbar
 ## Usage
 
 ```jsx
-import React, { useRef } from 'react';
+import React from 'react';
 import useHideScrollbar from "use-hide-scrollbar/dist/use-hide-scrollbar";
 const App = () => {
 

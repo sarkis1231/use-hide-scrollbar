@@ -3,11 +3,11 @@
   "description": "custom react hook to hide browser scrollbar",
   "name": "use-hide-scrollbar",
   "main": "dist/use-hide-scrollbar.js",
-  "source": "src/use-hide-scrollbar.ts",
+  "source": "src/index.ts",
   "modules": "dist/use-hide-scrollbar.modren.js",
   "types": "dist/use-hide-scrollbar.d.js",
   "files": [
-    "dist"
+    "dist/use-hide-scrollbar.js"
   ],
   "scripts": {
     "dev": "microbundle watch",

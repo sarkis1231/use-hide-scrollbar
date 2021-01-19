@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-function useHideScrollbar(trigger : boolean) : void {
+export function useHideScrollbar(trigger : boolean) : void {
     const body : HTMLElement = document.body
     useEffect(() => {
         if (trigger) {
@@ -12,5 +12,3 @@ function useHideScrollbar(trigger : boolean) : void {
         }
     }, [trigger]);
 }
-
-export default useHideScrollbar;
