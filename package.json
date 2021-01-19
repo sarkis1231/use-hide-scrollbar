@@ -5,7 +5,10 @@
   "main": "dist/use-hide-scrollbar.js",
   "source": "src/use-hide-scrollbar.ts",
   "modules": "dist/use-hide-scrollbar.modren.js",
-  "types": "lib/use-hide-scrollbar.d.js",
+  "types": "dist/use-hide-scrollbar.d.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "microbundle watch",
     "build": "microbundle"
