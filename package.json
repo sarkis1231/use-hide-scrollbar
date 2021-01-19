@@ -1,5 +1,5 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "custom react hook to hide browser scrollbar",
   "name": "use-hide-scrollbar",
   "main": "dist/index.js",
@@ -7,7 +7,6 @@
   "module": "dist/index.m.js",
   "esmodule": "dist/index.modern.js",
   "types": "dist/index.d.ts",
-
   "scripts": {
     "dev": "microbundle watch",
     "build": "rimraf dist && microbundle build --no-sourcemap --compress"
