@@ -11,12 +11,11 @@ yarn add use-hide-scrollbar
 
 ```jsx
 import React, { useRef } from 'react';
-import useClickOutside from 'use-click-outside';
-
+import useHideScrollbar from "use-hide-scrollbar/lib/use-hide-scrollbar";
 const App = () => {
 
   const [trigger, setTrigger] = useState(false);
-  useScrollingElement(trigger);
+  useHideScrollbar(trigger);
   console.log(trigger)
   return (
     <div>
