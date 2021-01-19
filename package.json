@@ -4,9 +4,9 @@
   "name": "use-hide-scrollbar",
   "source": "src/index.ts",
   "main": "dist/index.js",
-  "umd:main": "dist/use-hide-scrollbar.umd.js",
+  "umd:main": "dist/index.umd.js",
   "module": "dist/index.m.js",
-  "esmodule": "dist/use-hide-scrollbar.modern.js",
+  "esmodule": "dist/index.modern.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "microbundle watch",
