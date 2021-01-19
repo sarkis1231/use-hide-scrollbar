@@ -3,7 +3,8 @@
   "version": "1.0.7",
   "description": "custom react hook to hide browser scrollbar",
   "source": "src/use-hide-scrollbar.ts",
-  "main": "lib/use-hide-scrollbar.js",
+  "main": "use-hide-scrollbar.js",
+  "man" : [ "./lib/use-hide-scrollbar.js"],
   "types": "lib/use-hide-scrollbar.d.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/sarkis1231/use-hide-scrollbar/issues"
   },
-  "author": "Sarkis Kozanoghli",
-  "license": "ISC",
+  "author": "Sarkis1231",
+  "license": "MIT",
   "peerDependencies": {
     "react": ">=16.13"
   },
