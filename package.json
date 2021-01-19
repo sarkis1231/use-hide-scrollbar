@@ -2,7 +2,7 @@
   "name": "use-hide-scrollbar",
   "version": "1.0.0",
   "description": "custom react hook to hide browser scrollbar",
-  "main": "/src/use-hide-scrollbar.ts",
+  "main": "src/use-hide-scrollbar.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,24 @@
   "author": "Sarkis Kozanoghli",
   "license": "ISC",
   "peerDependencies": {
-    "react": ">=16.13",
+    "react": ">=16.13"
+  },
+  "devDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "@types/react": ">=16.13"
+  },
+  "keywords": [
+    "custom react hook",
+    "hide scrollbar",
+    "useHideScrollbar",
+    "react hide scrollbar"
+  ],
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
